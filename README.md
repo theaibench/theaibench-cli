@@ -27,6 +27,8 @@ $ uvx theaibench --platform windows --vram 24 --use-case coding
   Full planner → https://theaibench.ai
 ```
 
+> **What this is (and isn't):** a *recommender*, not a benchmark. It calls The AI Bench's free planner API and prints the recommendation — it does **not** detect your GPU, run models, or measure tok/s on your machine. The speed figures are calibrated bands from the site's published [methodology](https://theaibench.ai/methodology/calibration/), not a live test of your hardware. Use it as a fast, opinionated starting point, then verify against real benchmarks for your exact GPU + model + quant before a big purchase.
+
 ## Install / run
 
 No install needed with [uv](https://docs.astral.sh/uv/):
